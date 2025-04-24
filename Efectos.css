@@ -1,0 +1,105 @@
+/* Reset básico */
+body {
+    margin: 0;
+    font-family: 'Verdana', sans-serif;
+    background-color: #ffab3d; 
+    color: #924620; 
+  }
+  
+  /* Encabezado */
+  header {
+    background-color: #f18d34;
+    color: #fff;
+    padding: 1.5rem;
+    text-align: center;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+  }
+  
+  nav {
+    margin-top: 1rem;
+  }
+  
+  nav a {
+    margin: 0 1rem;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.2s;
+  }
+  
+  nav a:hover {
+    color: #ffe7c2;
+  }
+  
+  /* Bienvenida */
+  .bienvenida {
+    padding: 2.5rem;
+    text-align: center;
+    background-color: #ffedd5; 
+    border-bottom: 4px solid #ff9f1c;
+  }
+  
+  .bienvenida h2 {
+    color: #f16215; /* Naranja quemado */
+    margin-bottom: 1rem;
+  }
+  
+  .bienvenida p {
+    max-width: 600px;
+    margin: 0 auto;
+    font-size: 1.1rem;
+    color: #7c2d12;
+  }
+  
+  /* Galería */
+  .galeria {
+    padding: 2rem;
+    background-color: #ee9519; /* Fondo claro con tono naranja */
+    text-align: center;
+  }
+  
+  .galeria h3 {
+    color: #c2410c;
+    margin-bottom: 2rem;
+  }
+  
+  .productos {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+  }
+  
+  .producto {
+    background-color: #ffc07f; /* Naranja suave */
+    border-radius: 1rem;
+    padding: 1rem;
+    width: 220px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.2s ease, background-color 0.3s ease;
+  }
+  
+  .producto:hover {
+    transform: scale(1.05);
+    background-color: #ff9f43; /* Naranja brillante al pasar el mouse */
+  }
+  
+  .producto img {
+    width: 100%;
+    border-radius: 0.75rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Pie de página */
+  footer {
+    background-color: #ff6d00; /* Naranja oscuro */
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.9rem;
+    margin-top: 2rem;
+  }
